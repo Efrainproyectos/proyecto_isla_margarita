@@ -1,0 +1,1459 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(127, 255, 212, 0.38); 
+    background-image: linear-gradient(rgba(127, 255, 212, 0.38), rgba(0, 0, 255, 0.091));
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+
+
+
+div.islapr {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+
+}
+div.islapr img {
+    width: 100%;
+}
+
+
+
+
+div#islapeq {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: -80px;
+
+}
+
+div#islapeq img#ipeq {
+    width: 100%;
+}
+
+ li.inicios a#iniciop {
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 10px;
+    display: inline; 
+}
+
+@media screen and (max-width:2000px) {
+li.inicios:hover a#iniciop {
+        background-color: coral;
+    }
+}
+
+@media screen and (max-width:600px) {
+    div.informativo {
+        font-size: 20px;
+        margin-top: -75px;
+    }
+}
+
+h1#tp {
+    margin-bottom: 50px ;
+}
+
+h1 span.uno {
+    color: rgb(211, 211, 54);
+}
+h1 span.dos {
+    color: blue;
+}
+h1 span.tres {
+    color: rgb(185, 25, 25);
+}
+
+
+#tp {
+    text-align: center;
+    font-size: 68px;
+    font-family:cursive ;
+    margin-top: 65px;
+}
+
+@media screen and (max-width:400px) {
+    #tp {font-size: 40px;
+         margin-top: 78px;
+        }
+}
+
+
+ ul.ppal1  {
+    list-style-type: none;    
+    text-align: center;   
+    overflow: hidden;    
+    width: 100%;  
+}
+
+
+@media screen and (min-width:1660px) {
+    ul.ppal1 {margin-left: 100px;}
+}
+
+@media screen and (max-width:1659px) and (min-width:1252px){
+    ul.ppal1 {margin-left: 15px;}
+}
+@media screen and (min-width:0px) and (max-width:1251px){
+    ul.ppal1 {margin-left: 5px;}
+}
+
+ul.ppal1 li {
+    float: left;
+    padding: 0px 15px;
+    border-right: 1px solid whitesmoke;
+background-color: blue;
+ border-radius: 10px 10px;
+ margin: 0px 2px;
+ font-size: 28px;
+}
+
+@media screen and (min-width:1500px) {
+    ul.ppal1 li {
+        margin: 0px 5px;
+    }
+}
+
+
+ul.ppal1 li.desple {
+    background-color: orange(211, 211, 54);
+}
+
+ul.ppal1 li a  {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 28px;    
+}
+
+@media screen and (min-width:1236px) and (max-width:1437px)
+
+{
+    ul.ppal1 li a  {
+        font-size: 22px;
+    }
+
+    ul.ppal2 li.desple a {
+        font-size: 22px;
+    }
+
+    ul.ppal1 li.inicios a#iniciop {
+        font-size: 22px;
+    }
+    
+}
+
+@media screen and (min-width:0px) and (max-width:1235px)
+
+{
+    ul.ppal1 li a  {
+        font-size: 18px;
+        padding: 6px 7px;
+    }
+
+    ul.ppal2 li.desple a {
+        font-size: 18px;
+        padding: 6px 7px;
+    }
+
+    ul.ppal1 li.inicios a#iniciop {
+        font-size: 18px;
+        padding: 6px 7px;
+    }    
+}
+
+ul.ppal1 li  .listadesple {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 28px;
+    background-color: rgb(211, 211, 54);
+}
+
+
+ul.ppal1 li:hover {
+    background-color: coral;
+  
+}
+
+ul.ppal1 li a:hover, .desple:hover, .listadeple
+{
+   color: black; 
+    transition: 1s color;
+
+    font-weight: bolder;
+    font-style: oblique;
+   background-color: coral;  
+}
+
+
+@media screen and (min-width:801px) and (max-width: 2000px){
+
+li.desple .contdes a{
+    color: blue;
+    font-size: 25px;
+   background-color: rgba(97, 22, 22, 0);
+ 
+}
+}
+
+@media screen and (min-width:1437px) and (max-width: 2000px){
+
+li.desple:hover .contdes a{
+    color: blue;
+    font-size: 25px;
+   background-color: rgba(97, 22, 22, 0);
+   font-style: normal;
+ 
+}
+
+}
+
+@media screen and (min-width:1237px) and (max-width: 1436px){
+
+li.desple:hover .contdes a{
+    color: blue;
+    font-size: 20px;
+   background-color: rgba(97, 22, 22, 0);
+   font-style: normal;
+ 
+}
+
+}
+
+@media screen and (min-width:1010px) and (max-width: 1236px){
+
+li.desple:hover .contdes a{
+    color: blue;
+    font-size: 18px;
+   background-color: rgba(97, 22, 22, 0);
+   font-style: normal;
+ 
+}
+
+}
+
+
+@media screen and (min-width:0px) and (max-width: 1009px){
+
+li.desple:hover .contdes a{
+    color: white;
+    font-size: 15px;
+   background-color: rgb(185, 25, 25);
+   font-style: normal;
+ 
+}
+
+}
+
+
+@media screen and (max-width:2000px) {
+    ul.ppal2 li.desple {
+        background-color: rgb(211, 211, 54);
+    }
+}
+@media screen and (max-width:2000px) {
+    ul.ppal2 li.desple:hover {
+        background-color: coral;
+      
+    }
+}
+@media screen and (max-width:2000px) {
+    ul.ppal2 li.desple:hover a.listadesple {
+        background-color: coral;
+      
+    }
+}
+
+
+@media screen and (min-width:1669px) {
+    ul.ppal2:hover .contdes{
+       
+    
+       top: 350px;
+        left: 300px;
+        
+
+    }
+}
+
+@media screen and (min-width:1438px) and (max-width:1668px) {
+    ul.ppal2:hover .contdes{
+       
+    
+       top: 350px;
+        left: 190px;
+        
+
+    }
+}
+
+@media screen and (min-width:1237px) and (max-width:1438px) {
+    ul.ppal2:hover .contdes{
+       
+    
+       top: 340px;
+        left: 170px;
+        
+
+    }
+}
+
+
+@media screen and (min-width:1010px) and (max-width:1236px) {
+    ul.ppal2:hover .contdes{
+       
+    
+       top: 330px;
+        left: 140px;
+        
+
+    }
+}
+@media screen and (min-width:885px) and (max-width:1009px) {
+    ul.ppal2:hover .contdes{
+       
+        background-color: blue;
+       top: 332px;
+        left: 140px;
+        color: white;
+        
+
+    }
+}
+@media screen and (min-width:617px) and (max-width:884px) {
+    ul.ppal2:hover .contdes{
+       
+       
+       top: 332px;
+        left: 140px;
+        color: white;
+        
+
+    }
+}
+@media screen and (min-width:501px) and (max-width:616px) {
+    ul.ppal2:hover .contdes{
+       
+       
+       top: 425px;
+        left: 140px;
+        color: white;
+        
+
+    }
+}
+@media screen and (min-width:400px) and (max-width:500px) {
+    ul.ppal2:hover .contdes{
+       
+       
+       top: 445px;
+        left: 230px;
+        color: white;
+        
+
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:399px) {
+    ul.ppal2:hover .contdes{
+       
+      
+       top: 445px;
+        left: 160px;
+        color: white;
+        
+
+    }
+}
+@media screen and (min-width:374px) and (max-width:400px) {
+    ul.ppal2:hover .contdes{
+       
+      
+       top: 295px;
+        left: 180px;
+        color: white;
+        
+
+    }
+}
+@media screen and (min-width:200px) and (max-width:373px) {
+    ul.ppal2:hover .contdes{
+       
+      
+       top: 350px;
+        left: 140px;
+        color: white;
+        
+
+    }
+}
+
+
+ li.desple {
+    display: inline-block;
+    background-color: rgb(211, 211, 54);
+
+}
+
+
+.contdes {
+    display: none;
+    left: 50px;
+    margin-top: 2px;
+    position: absolute;
+    background-color:transparent;
+  
+    z-index: 1;
+}
+
+.contdes:hover {
+    background-color: transparent;
+}
+
+
+@media screen and (max-width:700px) {
+
+    .contdes {
+
+        width: 120px;
+       
+
+    }
+
+}
+
+
+.contdes a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: block;
+
+}
+
+.contdes a:hover {
+    background-color: rgba(221, 160, 221, 0.45);
+    transition: 1s;
+
+
+    
+}
+
+ul.ppal1 li:last-child {
+    border-right: none;
+    
+}
+
+.desple:hover .contdes {
+    display: block;
+    
+}
+
+ul.ppal1 li.contacto {
+    background-color: rgb(185, 25, 25);
+ 
+    
+}
+
+ul.ppal1:hover li.contacto {
+    background-color: coral;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+  ul.ppal1 li {
+    float: none;
+   
+  }
+}
+
+@media screen and (max-width:2000px) {
+    ul.ppal1 li {
+       margin-top: 5px;
+   
+        
+    }
+}
+
+
+.clearfix {
+    clear:both;
+    content: "";
+    display: table;
+}
+
+section.isla {
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+div.imgisla {
+width: 50%;
+    float: left;
+    padding-right: 25px;
+}
+
+div.imgisla img {
+    width: 100%;
+}
+
+div.texto1 {
+    padding-left: 15px;
+    font-size: 40px;
+   font-family: cursive;
+}
+
+div.texto1 p:first-child::first-letter {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width:600px) {
+
+div.texto1 p:first-child::first-letter {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    div.texto1 p, p span.perla {
+        font-size: 25px;
+    }
+}
+
+
+span.perla {
+    color:brown;
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+section.centro {
+    margin-top: 50px;
+    padding: 15px;
+}
+
+div.centro {
+    position: relative;
+    padding: 8px;
+}
+
+div.centro img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+div.centro div.textoc {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right: 50px;
+    bottom: 10px;
+    font-size: 40px;
+    font-family: cursive;
+    height: auto;
+    color: black;  
+    
+}
+
+
+
+@media screen and (max-width:600px) {
+div.centro div.textoc{
+    font-size: 25px;
+}
+}
+
+
+div.flota{
+    float: left;
+    border: 2px solid coral;
+    margin: 8px;
+    width: 600px; 
+}
+ 
+@media screen and (max-width:1000px) {
+    div.flota {
+        width: 400px;
+    }
+}
+@media screen and (max-width:500px) {
+    div.flota {
+        width: 300px;
+    }
+}
+
+div.flota img {
+    width: 100%;
+   
+}
+
+div.flota p {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    color: blue;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 5px;
+    
+}
+
+div.section3 {
+    font-size: 40px;
+    font-family: cursive;
+    padding: 15px;
+  
+}
+
+@media screen and (max-width:600px) {
+
+    div.section3
+   {
+        font-size: 20px;
+    }
+}
+
+
+
+footer#pfooter {
+    margin-top: 35px;
+
+}
+
+
+div.footeru {
+   display: flex;
+   justify-content: center;
+   padding: 35px;
+}
+
+button.irinicio {
+    text-align: center;
+    margin-right: 200px;
+    border-radius: 45%;
+    padding: 20px;
+    font-size:40px ;
+    border: 2px solid red;
+    background-color: white;  
+    
+}
+
+div.enca {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+@media screen and (max-width:400px) {
+    div.enca {
+        margin-top: -30px;
+    }
+}
+
+div.envios {
+    text-align: center;
+    display: flex;
+}
+
+@media screen and (max-width:600px) {
+button.irinicio {
+        margin-right: 25px;
+        padding: 15px;
+        font-size: 25px;
+
+    }
+}
+
+
+button.irinicio a {
+    text-decoration: none;
+}
+
+
+button.irinicio:hover {
+
+    background-color: black;
+    transition: 1s;
+
+}
+
+button.irinicio a:hover {
+    color: whitesmoke;
+}
+
+button.ircontact{
+    text-align: center;
+  
+    border-radius: 45%;
+    padding: 10px;
+    font-size: 40px;
+    border: 2px solid greenyellow;
+    background-color: brown;
+}
+
+@media screen and (max-width:600px) {
+    button.ircontact {
+        margin-right: 25px;
+        padding: 15px;
+        font-size: 25px;
+
+    }
+}
+
+
+button.ircontact a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:2000px) {
+    div.textoc {
+        justify-content: center;
+        overflow: auto;
+    }
+}
+
+
+button.ircontact:hover {
+
+    background-color: black;
+    transition: 1s;
+
+}
+
+button.ircontact a:hover {
+    color: whitesmoke;
+}
+
+
+
+
+h3.shist {
+    margin-top: 25px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 5px  rgb(238, 0, 255);
+    letter-spacing: 10px;
+
+}
+
+
+@media screen and (max-width:600px) {
+    h3.shist {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:0px) and (max-width:360px) {
+    h3.shist {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}
+
+
+section.historia {
+    padding: 10px;
+    margin-top: -70px;
+    margin-bottom: 50px;
+}
+
+div.historia2 p:first-child::first-letter {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width:600px) {
+div.historia2 p:first-child::first-letter
+   {
+        font-size: 35px;
+    }
+
+
+}
+@media screen and (max-width:600px) {
+div.centroff p:first-child::first-letter
+   {
+        font-size: 35px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+div.historia p
+   {
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:600px) {
+div.perladel
+   {
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:600px) {
+div.centroff
+   {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+div.historia1 {
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+  
+        border: 3px solid coral;
+        margin: 8px;
+    
+}
+
+div.historia1 img {
+    width: 100%;
+
+}
+
+div.historia1 p {
+   
+            padding: 0;
+            margin: auto;
+            text-align: center;
+            font-weight: bolder;
+            color: blue;
+            font-size: 25px;
+            font-style: italic;
+            margin-top: -15px;
+    
+        
+}
+
+div.guaiq {
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+
+    border: 3px solid coral;
+    margin: 8px;
+
+}
+
+div.guaiq img {
+    width: 100%;
+
+}
+
+div.guaiq p {
+
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    color: blue;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: -15px;
+
+
+}
+
+section.geografia {
+    padding: 10px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+section.sitiosturisticos {
+    padding: 12px;
+}
+
+.fondot {
+ height: auto;
+  display: flex;
+  position: relative;
+  padding: 15px;
+
+}
+
+.fondot p:first-child::first-letter{
+    font-size: 60px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .fondot {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .fondot p:first-child::first-letter {
+        font-size: 25px;
+    }
+}
+
+.fondot::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/img/sitiostfondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    
+
+
+}
+
+.fondot p{
+   
+    position: relative;
+  
+    
+}
+section.sitiosturisticos {
+    padding: 12px;
+}
+
+.gastrof{
+    height: auto;
+    display: flex;
+    position: relative;
+    padding: 15px;
+
+}
+
+.gastrof::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/img/pimenton.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.gastrof p {
+
+    position: relative;
+
+
+}
+
+
+.centroff{
+    height: auto;
+    display: flex;
+    position: relative;
+    padding: 15px;
+
+}
+
+.centroff::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/img/imgfond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+}
+
+.centroff p {
+
+    position: relative;
+
+
+}
+
+
+.centroff p:first-child::first-letter {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+@media screen and (max-width:600px) {
+    .gastrof p:first-child::first-letter {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .gastrof p {
+        font-size: 20px;
+    }
+}
+
+
+.fondoflora {
+    height: auto;
+    display: flex;
+    position: relative;
+    padding: 15px;
+
+}
+
+.fondoflora::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/img/fondoflora.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
+.fondoflora p {
+
+    position: relative;
+
+}
+
+.fondotrad {
+    height: auto;
+    display: flex;
+    position: relative;
+    padding: 15px;
+
+}
+
+.fondotrad::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/img/fondotrad.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.4;
+}
+
+.fondotrad p {
+
+    position: relative;
+
+}
+
+
+.fondotrad p:first-child::first-letter {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media screen and (max-width:600px) {
+   .fondotrad p:first-child::first-letter {
+    font-size: 35px;
+   }
+}
+
+@media screen and (max-width:600px) {
+   .fondotrad p {
+    font-size: 20px;
+   }
+}
+
+section.contacto {
+    margin-left: 15px;
+    margin-top: 100px;
+
+}
+
+section.formularios {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+@media screen and (max-width:600px) {
+    section.formularios {
+        margin:auto;
+    }
+}
+
+div.formularios {
+    margin: 10px;
+    width: 40%;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 35px;
+    float: left;
+}
+
+
+@media screen and (max-width:840px) {
+    div.formularios {
+        margin: 2px;
+        padding: 2px;
+        width: auto;
+    }
+}
+
+fieldset.formularios {
+    background-color: blue;
+}
+
+legend {
+    font-size: 35px;
+}
+
+@media screen and (max-width:600px)
+{
+    legend {
+        font-size: 25px;
+    }
+}
+
+fieldset.formularios label {
+    font-size: 25px;
+}
+
+@media screen and (max-width:600px) {
+fieldset.formularios label {
+        font-size: 15px;
+    }
+}
+
+fieldset.formularios input {
+    font-size: 20px;
+}
+
+@media screen and (max-width:500px) {
+    fieldset.formularios input{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:400px) {
+    fieldset.formularios input{
+        font-size: 15px;
+    }
+}
+
+fieldset.formularios select {
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px) {
+    fieldset.formularios select {
+        font-size: 15px;
+    }
+}
+
+
+input#texta[type="text"] {
+    width: auto;
+    height: 200px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    input#texta[type="text"] {
+        font-size: 15px;
+        width: 280px;
+    }
+}
+
+
+input#enviarf {
+    border: none;
+    text-align: center;
+}
+input#resetf {
+    border: none;
+    text-align: center;
+}
+
+input#enviarf[type="submit"] {
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 25px;
+    border: 2px solid rgb(0, 8, 255);
+    background-color: rgb(47, 213, 105);
+    color: white;
+    
+ 
+}
+
+@media screen and (max-width:420px) {
+    input#enviarf[type="submit"] {
+        font-size: 20px;
+        width: 120px;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+input#resetf[type="reset"] {
+    text-align: auto;
+   margin: auto;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 25px;
+    border: 2px solid rgb(0, 8, 255);
+    background-color: rgb(47, 213, 105);
+    color: white;   
+ 
+}
+
+
+@media screen and (max-width:420px) {
+    input#resetf[type="reset"] {
+        font-size: 20px;
+        width: 120px;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+
+
+div.nombreff {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+@media screen and (max-width:1300px) {
+    div.nombreff {
+        font-size: 15px;
+        padding: auto;
+    }
+}
+
+div.emailf {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+@media screen and (max-width:1300px) {
+    div.emailf{
+        font-size: 15px;
+        padding: auto;
+    }
+}
+div.direccionf {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+@media screen and (max-width:1300px) {
+    div.direccionf {
+        font-size: 15px;
+        padding: auto;
+    }
+}
+div.telefonof {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+@media screen and (max-width:1300px) {
+    div.telefonof {
+        font-size: 15px;
+        padding: auto;
+        vertical-align: middle;
+    }
+}
+
+footer#divfinal {
+    display: flex;
+    width: 100%;
+   
+}
+
+div.tabla {
+    float: right;
+    width: 55%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+div.tabla table {
+    width: 100%;
+
+}
+
+table {
+    border: 3px solid white;
+    background-color: blue;
+    color: whitesmoke;
+    border-collapse: collapse;
+    margin-top: -11px;
+}
+
+@media screen and (max-width:450px) {
+    table {
+        font-size: 15px;
+        margin: auto;
+    }
+}
+
+
+th, td {
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+@media screen and (max-width:450px) {
+   th {
+        font-size: 20px;
+       
+    }
+}
+
+
+caption {
+    text-align: center;
+}
+
+div.tabla th {
+    text-align: center;
+}
+
+div.tabla td {
+    text-align: center;
+}
+
+th.viaje1 {
+    padding: 10px;
+    font-size: 40px;
+}
+@media screen and (max-width:450px) {
+    th.viaje1 {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
+
+td.excelencia {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+
+@media screen and (max-width:840px) {
+    div.tabla {
+       float: left;
+       width: auto;
+    }
+}
+
+
+td.lema {
+    font-size: 25px;
+}
+
+@media screen and (max-width:450px){
+   td.lema {
+       font-size: 15px;
+    }
+}
+
+
+div.contenedor{
+  
+    min-height:calc(100vh);
+}
+
+
+footer#final {
+    
+    width: 100%;
+    height: 300px;
+}
+
+
